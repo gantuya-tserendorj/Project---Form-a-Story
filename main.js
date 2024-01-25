@@ -44,7 +44,7 @@ const title = document.getElementById('title');
 // Populating the title element with text
 title.innerHTML = `The <span class="word" title="id: animal-1">${firstAnimal}</span> And The  <span class="word" title="id: animal-2">${secondAnimal}</span>`;
 
-// Grabbing the story element
+// Grab the story element
 const storyEl = document.getElementById('story');
 
 // Populating the story element with the value of the story variable
