@@ -40,6 +40,7 @@ const story = `<p>A <span class="word" title="id: animal-1">${firstAnimal}</span
 
 // Grabbing the title element
 const title = document.getElementById('title');
+
 // Populating the title element with text
 title.innerHTML = `The <span class="word" title="id: animal-1">${firstAnimal}</span> And The  <span class="word" title="id: animal-2">${secondAnimal}</span>`;
 
